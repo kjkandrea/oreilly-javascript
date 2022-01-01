@@ -5,7 +5,7 @@ const stringFirstProperty = stringPropertiesNames[0]
 const length = string[stringFirstProperty]
 
 console.log(
-  // stringPropertiesNames.join(','),
+  stringPropertiesNames,
   stringFirstProperty,
   length
 )
