@@ -13,4 +13,5 @@ String.prototype.replaceAt = function (index, replacement) {
 }
 
 abc = abc.replaceAt(1, 'z'); // string is immutable. but you can
+console.log(abc)
 console.log('abc' !== abc) // true
