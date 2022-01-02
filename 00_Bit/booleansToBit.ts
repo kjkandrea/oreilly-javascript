@@ -22,7 +22,7 @@ class Booleans {
 const { bit } = new Booleans([true, true, false, true])
 console.log(bit)
 
-// boolean list 와 boolean list 를 최소비용으로 비교한다.
+// Booleans 로 생성된 boolean list 와 boolean list 의 equality 을 알 수 있다.
 const foo = new Booleans([true, true, false, true])
 const bar = new Booleans([true, true, false, true])
 console.log(foo.isEqual(bar.bit))
