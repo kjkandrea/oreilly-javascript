@@ -1,4 +1,7 @@
-const toBit = number => number.toString(2)
+const toBit = number => {
+  if (typeof number === 'number') return number.toString(2)
+  throw new TypeError()
+}
 
 const bits = [
   toBit(1),
