@@ -10,7 +10,7 @@ class Booleans {
 	}
 
 	toBit(booleans: boolean[]): string {
-		return booleans.toString()
+		return booleans.map(bool => bool ? 1 : 0).join('')
 	}
 }
 
