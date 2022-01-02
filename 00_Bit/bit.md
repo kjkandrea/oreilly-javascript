@@ -25,7 +25,7 @@ const bits = [
 
 ## bitwise 로 1 이동시키기
 
-``` javascript
+```javascript
 let bit = (1).toString(2)
 console.log(bit) // 2진법 : 1
 
