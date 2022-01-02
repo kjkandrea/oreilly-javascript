@@ -10,6 +10,7 @@ const bits = [
   toBit(7),
   toBit(8),
   toBit(9),
+  toBit(100),
 ]
 
 console.log(bits)
