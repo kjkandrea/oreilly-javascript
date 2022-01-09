@@ -18,3 +18,7 @@ for (const key in person) {
   if(person.hasOwnProperty(key)) console.log(key, ':', person[key])
 }
 
+// 인스턴스 내에 프로퍼티만 출력됨
+console.log(Object.keys(person))
+console.log(Object.values(person))
+
